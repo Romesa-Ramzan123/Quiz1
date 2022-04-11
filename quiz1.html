@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link
+     rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <style>
+        .border{
+       border: 2px solid red;
+        }
+        </style>
+    <script>
+    $(document).ready(function(){
+        $("p").on({
+          mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+          },  
+          mouseleave: function(){
+            $(this).css("background-color", "white");
+          }, 
+        
+        });
+      $(".index").hide()
+       
+        $(".index").show("slow");
+        
+        $(".name1")
+            
+        $(".readmore").hide()
+        $(".buttons").click(function(){
+        $(".readmore").toggle();
+    });
+  
+    $(".buttons").click(function(){
+        $(".index2").slideToggle("slow")
+    });   
+    $(".name1").animate({
+            opacity: 0.5
+        });
+ 
+        });
+</script>
+</head>>
+<body>
+
+
+
+
+<div class="row g5">
+    <div class="col-sm-3 bg-secondary">
+    
+   
+    <img src="123.png" class="rounded-circle border border-dark" id="img" height="150" width="150">
+    
+    <h1 class=" float-bottom text-white name1">Romesa Ramzan</h1>
+    
+
+            <div class="list-group">
+                <h3 class="text-dark">Personal Info</h3>
+             <a href= "mailtoromesaramzan86@gmail.com "class="text-decoration-none text-white index2" target="blank"><ion-icon name="mail-outline"></ion-icon> Gmail</a>
+        
+    <a href="0308-1438791" class="text-decoration-none text-white index2"><ion-icon name="call-outline"></ion-icon>  0308-1438791</a>
+    <h6 class="text-white index2"><ion-icon name="location-outline" class="text-white"></ion-icon>  Amir Cotton Mills 64km Multan Road,<br> Near PhoolNaghar Pakistan</h6>
+    <button type="button" class="btn btn-outline-dark buttons" data-mdb-ripple-color="dark">Read More</button>
+<a  href="https://github.com/romesa122" class="text-decoration-none text-white readmore" target="blank"><ion-icon name="logo-github"></ion-icon>  Github</a>
+    <a href="https://www.linkedin.com/jobs/" class="text-decoration-none text-white readmore" target="blank"><ion-icon name="logo-linkedin"></ion-icon>  Linkedin</a>
+    <h6 class="text-white readmore"><ion-icon name="calendar-outline" ></ion-icon>  26 April 2001</h6>
+</div>
+<div class="skills">
+    <h3 class="text-dark"> Skills</h3>
+    <button type="button" class="btn btn-dark mb-1 text-success">DataBase</button>
+<button type="button" class="btn btn-dark mb-1 text-success">HTML</button>
+<button type="button" class="btn btn-dark mb-1 text-success">CSS</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Javascript</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Computer Graphics</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Machine Learning</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Bootstrap</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Problem Solving</button>
+<button type="button" class="btn btn-dark mb-1 text-success">Time Management</button>
+<button type="button" class="btn btn-dark text-success">Flexibility</button>
+    
+</div>
+       
+</div>
+<div class="col-sm-9 bg-light" >
+    
+    <h3 class="text-primary ">Objectives</h3>
+    <p class="info more">I am an experienced software engineer with a passion for creating new systems that improve company efficiency and effectiveness. I am a skilled leader with a track record of motivating, educating, and leading a team of experts to develop software programs and track changes efficiently. To build software that is personalized to fit a company's organizational needs, showcase their key capabilities, and advance their success, I am a confident communicator, strategic thinker, and inventive developer.</p>
+<div class="row">
+    <div class="col-sm-3 border border-muted">
+
+      <h3 class="text-primary">Education</h3>
+    <h5>Bachelors of Computer Science</h5>
+    <p class="index">Comsats University Islamabad, Lahore Campus</p>
+    <h5>Majors</h5> 
+    <p class="index">Database, Computer Graphics, Machine Learning, Digital Image Processing, Web , OOP, DSA</p>
+    <h5>Aspire College</h5>
+    <h6 class="index">Fsc</h6><p class="index">2019</p>
+    <h5>Allied School</h5>
+    <h6 class="index">Matric</h6><p class="index">2017</p><br>
+</div>
+<div class="col-sm-3 border border-muted">
+    <h3 class="text-primary"> Semester Projects</h3>
+                  
+                
+    <h5 >Library System</h5>
+ <p class="index"> This system helps to manage the data of library</p>
+
+    <h5>Car indexRental System</h5>
+    <p class="index">This System helps to rent vehicles and manage all its accounts</p>
+
+    
+    <h5>Softwere Engineering Tool</h5>
+    <p class="index"> A desktop application. Documentation of proposal and SRS </p>
+
+    <h5>Demosaci</h5>
+    <p class="index"> A mosaci whoch effects its neighbourhood colors</p>
+
+</div>
+<div class="col-sm border border-muted">
+<h3 class="text-primary">Work Experience</h3>
+      <h5>2019-2020</h5>
+      <h6>Software Engineering || Pak Tower</h6>
+      <li class="index">Good understanding of C/C++ and Unix programming</li>
+      <li class="index">Basic knowledge of relational database management systems (RDBMS), such as SQL Server and Oracle.</li>
+      <h5>2018-2019</h5>
+      <h6 >Software Engineering || DevBox</h6>
+      <li class="index">Three key software packages for financial tracking and reporting were developed and built.</li>
+      <h5>2017-2018</h5>
+      <h6 >Associate Engineer || Estes Corp</h6>
+      <li class="index"><p>
+          Maintaining a system for archiving code in C++ and keeping track of software changes.</p>
+        </li>
+      <li class="index"><p>Primary technical breakthroughs were investigated to see if they were efficient and practical to incorporate into organizational operations.</p>
+
+    </li>
+      
+   
+    </div>
+</div>
+      
+    </div>
+</div>
+    
+
+
+
+</body>
+</html>
